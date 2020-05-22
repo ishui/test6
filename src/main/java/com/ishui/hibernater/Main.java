@@ -27,7 +27,6 @@ import java.util.List;
  */
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println("我在这里增加了一些文字");
 //        Configuration configure = new Configuration().configure();
 //        StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder().applySettings(configure.getProperties());
 //        StandardServiceRegistry registry = builder.build();
