@@ -14,6 +14,7 @@ public class Person {
     LocalDateTime birth = null;
 
     public Boy getBoy() {
+        System.out.println("这样也可以");
         return boy;
     }
 
