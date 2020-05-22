@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.ishui.pojo.City" table="city" schema="dbgirl">
+        <id name="cityId" column="city_id">
+            <generator class="native" />
+        </id>
+        <property name="city" column="city"/>
+        <property name="countryId" column="country_id"/>
+        <property name="lastUpdate" column="last_update"/>
+    </class>
+</hibernate-mapping>

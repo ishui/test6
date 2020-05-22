@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.ishui.pojo.Boy" table="boy" schema="dbgirl">
+<!--        <id name="id" column="id"/>-->
+        <id name="id" column="id">
+           <generator class="increment" />
+        </id>
+        <property name="address" column="address"/>
+
+        <property name="age" column="age"/>
+        <property name="username" column="username"/>
+        <property name="sex" column="sex"/>
+    </class>
+</hibernate-mapping>

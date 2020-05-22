@@ -1,0 +1,5 @@
+com\ishui\pojo\Boy.class
+com\ishui\pojo\City.class
+com\ishui\tools\HibernateUtils.class
+com\ishui\pojo\Person.class
+com\ishui\hibernater\Main.class
